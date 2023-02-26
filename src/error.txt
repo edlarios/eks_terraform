@@ -1,0 +1,43 @@
+? Error: Unsupported argument
+?
+?   on variables.tf line 12, in variable "region":
+?   12:   region      = "us-west-2"
+?
+? An argument named "region" is not expected here.
+?
+
+?
+? Error: Unsupported argument
+?
+?   on variables.tf line 19, in variable "availability_zones_count":
+?   19:   availability_zones_count = 2
+?
+? An argument named "availability_zones_count" is not expected here.
+?
+
+?
+? Error: Unsupported argument
+?
+?   on variables.tf line 26, in variable "project":
+?   26:   project = "TFEKSWorkshop"
+?
+? An argument named "project" is not expected here.
+?
+
+?
+? Error: Unsupported argument
+?
+?   on variables.tf line 33, in variable "vpc_cidr":
+?   33:   vpc_cidr         = "10.0.0.0/16"
+?
+? An argument named "vpc_cidr" is not expected here.
+?
+
+?
+? Error: Unsupported argument
+?
+?   on variables.tf line 40, in variable "subnet_cidr_bits":
+?   40:   subnet_cidr_bits = 8
+?
+? An argument named "subnet_cidr_bits" is not expected here.
+?

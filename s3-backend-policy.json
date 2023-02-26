@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::361303870170:user/cloud_user"
+            },
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::eks-backend-2023"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::361303870170:user/cloud_user"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "arn:aws:s3:::eks-backend-2023/*"
+        }
+    ]
+}
